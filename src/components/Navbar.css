@@ -1,5 +1,5 @@
 .active{
-    background-color: slateblue;
+    color: #1e8efb;
 }
 
 nav{
@@ -7,6 +7,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: #0f172a;
+    height: 100px;
 }
 
 nav ul{
@@ -15,13 +16,22 @@ nav ul{
 
 nav ul li{
     list-style: none;
+    padding: 0 20px;
+    position: relative;
 }
 
 nav ul li a{
     display: block;
     text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
     color: white;
     padding: 0.5rem;
     margin: 0 0.5rem;
     border-radius: 0.5rem;
 }
+
+.logo{
+    margin-left: 2rem;
+}
+
