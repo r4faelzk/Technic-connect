@@ -25,6 +25,14 @@ export const Navbar = () => {
                     <NavLink to="/contato">Contato</NavLink>
                 </li>
 
+                <li>
+                    <NavLink to="/login" className="btn1">Login</NavLink>
+                </li>
+
+                <li>
+                    <NavLink to="/cadastro" className="btn2">Cadastro</NavLink>
+                </li>
+
             </ul>
         </nav>
     )

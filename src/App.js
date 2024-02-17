@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Navbar } from './components/Navbar';
-import { Servico, Contato, Orcamento, Home } from './components/pages';
+import { Servico, Contato, Orcamento, Home, Cadastro, Login} from './components/pages';
 
 
 function App() {
@@ -13,6 +13,8 @@ function App() {
         <Route path='/servico' element={<Servico />} />
         <Route path='/contato' element={<Contato />} />
         <Route path='/orcamento' element={<Orcamento />} />
+        <Route path='/cadastro' element={<Cadastro />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
     </div>
   );
