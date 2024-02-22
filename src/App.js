@@ -1,21 +1,23 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import { Navbar } from './components/Navbar';
-import { Servico, Contato, Orcamento, Home, Cadastro, Login} from './components/pages';
-
+import { Navbar } from './components/Navbar/Navbar';
+import { Footer } from './components/Footer/Footer'
+import GlobalStyle from './styles/global';
+import { Servico, Orcamento,  Home, Cadastro, Login, Feed} from './pages';
 
 function App() {
   return (
     <div className="App">
+      <GlobalStyle />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/servico' element={<Servico />} />
-        <Route path='/contato' element={<Contato />} />
+        <Route path='/feed' element={<Feed />} />
         <Route path='/orcamento' element={<Orcamento />} />
         <Route path='/cadastro' element={<Cadastro />} />
         <Route path='/login' element={<Login />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
