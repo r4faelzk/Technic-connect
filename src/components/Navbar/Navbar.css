@@ -53,8 +53,8 @@ header{
 
 .buttons button {
     border: none;
-    padding: 10px 30px;
-    border-radius: 5px;
+    padding: 15px 30px;
+    border-radius: 60px;
     margin-right: 1.5rem;
     transition: 0.3s;
 }
@@ -63,8 +63,8 @@ header{
 .buttons button a {
     text-decoration: none;
     color: #fff;
-    font-weight: 600;
-    font-size: 1.1rem;
+    font-weight: 500;
+    font-size: 22px;
 }
 
 .buttons button:hover{

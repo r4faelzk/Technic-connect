@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { Navbar } from './components/Navbar/Navbar';
-import { Footer } from './components/Footer/Footer'
+import { Footer } from './components/Footer/Footer';
 import GlobalStyle from './styles/global';
 import { Servico, Orcamento,  Home, Cadastro, Login, Feed} from './pages';
 

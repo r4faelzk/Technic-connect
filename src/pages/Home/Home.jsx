@@ -20,7 +20,7 @@ export const Home = () => {
                         </button>
                     </div>
                     <div className="img">
-                        <img src={Iphone} alt="" className="img1" />
+                        <img src={Iphone} alt="" className="img1-home" />
                     </div>
                 </div>
             </section>
@@ -98,7 +98,7 @@ export const Home = () => {
                                 " id="" placeholder="Escreva sua mensagem"></textarea>
                             
 
-                            <button className="btn" type="submit">Cadastrar</button>
+                            <button className="btn" type="submit">Enviar</button>
                         </form>
                     </div>
                 </div>

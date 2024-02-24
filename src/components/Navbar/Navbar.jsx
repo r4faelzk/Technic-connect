@@ -74,7 +74,7 @@ export const Navbar = () => {
 
                     {!isLoginPage && !isCadastroPage && (
                         <button style={{ backgroundColor: "#1e8efb" }}>
-                            <NavLink to="/cadastro" className="btn2">
+                            <NavLink to="/cadastro" className="btn3">
                                 Cadastro
                             </NavLink>
                         </button>
@@ -133,7 +133,7 @@ export const Navbar = () => {
                             </button>
 
                             <button style={{ backgroundColor: "#1e8efb" }}>
-                                <NavLink to="/cadastro" className="btn2">
+                                <NavLink to="/cadastro" className="btn3">
                                     Cadastro
                                 </NavLink>
                             </button>

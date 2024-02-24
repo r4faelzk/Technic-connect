@@ -43,10 +43,6 @@
     padding: 20px 45px 20px 20px;
 }
 
-.input-box input::placeholder {
-    color: #fff;
-}
-
 .input-box .icon {
     position: absolute;
     right: 20px;
@@ -75,6 +71,8 @@
     text-decoration: underline;
     color: #1e8efb;
 }
+
+
 
 .login-form button {
     width: 100%;
