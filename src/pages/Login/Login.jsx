@@ -1,36 +1,53 @@
 import React from "react";
-import { FaUser, FaLock } from "react-icons/fa";
+import { FaUser, FaLock, FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import "./Login.css"
 
 export const Login = () => {
     return (
         <div className="container">
-            <div className="login-form">
-                <form action="">
-                    <h1>Login</h1>
-                    <div className="input-box">
-                        <input type="text" placeholder="Usuário" required />
-                        <FaUser className="icon" />
+            <div className="content">
+                <div className="login-register">
+                    <form action="" className="login-form">
+                        <h2 className="title">Login</h2>
+                        <div className="input-field">
+                            <FaUser className="icon" />
+                            <input type="text" placeholder="Usuário" />
+                        </div>
 
-                    </div>
+                        <div className="input-field">
+                            <FaLock className="icon" />
+                            <input type="password" placeholder="Senha" />
+                        </div>
 
-                    <div className="input-box">
-                        <input type="password" placeholder="Senha" required />
-                        <FaLock className="icon" />
-                    </div>
+                        <input type="submit" value={"Login"} className="btn-login" />
 
-                    <div className="remember">
-                        <label><input type="checkbox" />Lembrar senha</label>
-                        <a href="#">Esqueceu sua senha?</a>
-                    </div>
+                    </form>
 
-                    <button type="submit">Login</button>
+                    <form action="" className="login-form">
+                        <h2 className="title">Cadastro</h2>
+                        <div className="input-field">
+                            <FaUser className="icon" />
+                            <input type="text" placeholder="Usuário" />
+                        </div>
 
-                    <div className="register-link">
-                        <p>Ainda não possui uma conta? <a href="">Cadastrar</a></p>
-                    </div>
-                </form>
+                        <div className="input-field">
+                            <MdEmail className="icon" />
+                            <input type="text" placeholder="E-mail" />
+                        </div>
+
+                        <div className="input-field">
+                            <FaLock className="icon" />
+                            <input type="password" placeholder="Senha" />
+                        </div>
+
+                        <input type="submit" value={"Cadastrar"} className="btn-login" />
+
+                    </form>
+                </div>
+                <div className="panels-container"></div>
             </div>
+
         </div>
 
     )
